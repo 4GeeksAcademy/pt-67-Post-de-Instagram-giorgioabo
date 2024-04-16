@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:black;
+}
+
+.post {
+    max-width: 600px;
+    margin: 60px auto;
+    background-color: white;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  
+}
+
+.post-header p { 
+    margin: 0px;
+    margin-left: 24%;
+}
+
+.post-header div { 
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.post-text {
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+
+}
+
+.fa-brands { font-size: xx-large; 
+}
+
+.username {
+    font-weight: bold;
+}
+
+.fa-solid { font-size: xx-large;
+    display:flex;
+    justify-content:flex-end;
+}
+
+.post-img {
+    width: 100%;
+    height: auto;
+}
+
+.post-desc {
+    margin-bottom: 10px;
+    padding: 0px 15px;
+}
+
+.post-icons { 
+    margin-top: 5px;
+    padding: 0px 15px;
+    font-size:xx-large;
+    display:flex;
+    justify-content:space-between; 
+}
+
+.post-like {  
+    padding: 0px 15px;
+}
+
+.post-desc{
+    padding-bottom: 20px;
+}
